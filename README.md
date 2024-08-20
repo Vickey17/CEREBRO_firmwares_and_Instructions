@@ -1,6 +1,8 @@
 # CEREBRO_firmwares_and_Instructions
 Author: Dr. Vikram Pal Singh| Date: 20 Aug 2024
+
 **1.	Firmware setup:**
+
 a.	For flashing the firmware on to the boards, you can use any flashing software, but it is better to use STM32 ST-LINK utility.  Here is the link to download it: https://www.st.com/en/development-tools/stsw-link004.html
 b.	Once you have this downloaded, connect the board to the ST-LinkV3 programmer and debugger using the TC2030-CTX-NL-STDC14 tag connect cables. 
 c.	Do not forget to power the board using either the GPIO connections (via battery) or using USB-C port and supplying power from a safe 5V port on a laptop or charger brick.
