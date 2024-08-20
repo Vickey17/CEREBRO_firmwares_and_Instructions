@@ -41,7 +41,7 @@ This will decode the files in the source destination (F:\) and save the decoded 
 
 e.g. 01_run.bat -b <source destination> <target destination>
 
-e.	**Note: **You need to specify the location for the python binary in the file env.config
+e.	**Note:** You need to specify the location for the python binary in the file env.config
 
 f.	**Note:** For the 1ST run, the system will create a new environment in the folder where 01_run.bat file exists. Be patient as this can take a while. Following this, all the 
 other runs should be faster. Overall decoding is a slow process. At the end of the decoding, the command prompt will show length of the videos and statistics of dropped frames.
