@@ -9,11 +9,13 @@ c.	Do not forget to power the board using either the GPIO connections (via batte
 d.	Once the board is powered and connected to the ST-LinkV3, go to> open file and select the correct hex file to flash on the board.
 e.	Once correct file is selected, go to Target>> Program and verify. This should flash the firmware on the connected board.
 **2.	Firmware:**
+
 a.	There are 3 firmware that can be flashed on the CEREBRO boards:
 b.	World_cam_firmware: records a 1200x800 window on the image sensor and then bins it to 600x400 before saving it to SD card. FPS= 63
 c.	Eye_cam_firmware: records a 400x400 window. FPS=91
 d.	Preview_cam_firmware: allows the user to preview camera frames on a computer screen. This is used during initial fitting to ensure the cameras are placed at correct region of interest.
 **3.	Decoding and preview scripts:**
+
 a.	Use the scripts provided in recording_decoding folder to decode the binary files on SD card to get video, frame timestamp for each video and IMU data with timestamps.
 b.	For decoding videos, run the 01_run.bat file. It needs 2 arguments i.e. source destination and target destination. 
 c.	Open a command terminal and point it to the “recorder_decoder” directory with 01_run.bat file 
